@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+       header{
+        display: flex;
+        justify-content: space-between;
+        background-color: whitesmoke;
+        border-bottom: 1px solid;
+        position: fixed;
+        height: 30px;
+        top: 0px;
+        width: 100%;
+        z-index: 1;
+       }
+       .container2{
+        position: absolute;
+        top: 9px;
+       }
+       div span{
+        margin: 15px;
+       }
+       .main{
+        position: relative;
+        top: 20px;
+        
+
+       }
+       .Le{
+        position: absolute;
+        left: 12px;
+        bottom: 1px;
+        font-size: 250%;
+        color: gray;
+       }
+       .main2{
+        display: flex;
+        margin: 10px;
+        padding: 50px;
+
+        /* gap: 50px; */
+        /* position: relative;
+        top: 50px;
+        left: 100px; */
+       }
+       .main2a{
+        display: flex;
+        flex-direction: column;
+        padding: 50px ;
+        /* justify-content: space-around; */
+        /* position: absolute; */
+    
+       }
+       .font1{
+        font-size: 250%;
+        text-align: center;
+        word-spacing: 5px;
+        letter-spacing: 3px;
+        
+       }
+       .font2{
+        font-size: 100%;
+        text-align: center;
+        word-spacing: 5px;
+        letter-spacing: 3px;
+        
+       }
+       .font3{
+        /* font-size: 100%; */
+        text-align: center;
+        word-spacing: 5px;
+        text-align: justify;
+        line-height: 25px;
+        
+       }
+       .font4{
+        text-align: center;
+        word-spacing: 5px;
+        text-align: justify;
+        line-height: 25px; 
+        font-weight: lighter;
+        color: gray;
+
+       }
+       .main3{
+        display:grid;
+        grid-template-columns: auto auto;
+        margin: 60px;
+    
+       }
+       .our{
+        text-align: center;
+        font-size: 250%;
+        word-spacing: 5px;
+        letter-spacing: 3px;
+
+       }
+       .s1{
+        font-size: 130%;
+        word-spacing: 5px;
+        letter-spacing: 3px;
+
+       }
+       .s2{
+        color: gray;
+        word-spacing: 5px;
+        letter-spacing: 3px;
+
+       }
+       .con{
+        margin: 40px;
+        letter-spacing: 3px;
+       }
+       p{
+        margin: 30px;
+       }
+       .para{
+        color: rgb(15, 77, 56);
+        
+       }
+       input{
+        position: relative;
+        left: 25px;
+        width: 90%;
+        margin: 5px;
+        height: 35px;
+        border: none;
+        border-bottom: 1px solid;
+
+       }
+       .botten{
+        width: 20%;
+        border: none;
+       }
+       .copy{
+        background-color:rgb(202, 198, 198);
+        height: 10vh;
+        width: 100vw;
+        text-align: center;
+        align-content: center;
+        margin: 0px;
+       }
+
+    </style>
+</head>
+<body>
+
+    <header> 
+        <div>Gourmet au Catering</div>
+        <div>
+           <span>About</span>
+           <span>Menu</span>
+           <span>Contact</span>
+        </div> 
+     </header>
+    <div class="container2">
+    <div class="main">
+       <div>
+         <img src="https://www.w3schools.com/w3images/hamburger.jpg" width="100%" height="100%">
+         <span class="Le">Le Catering</span>
+      </div>
+    </div>
+    <div class="main2">
+        <img src="https://www.w3schools.com/w3images/tablesetting2.jpg" width="40%" height="20%">
+        <div class="main2a">
+            <span class="font1">About Catering</span>
+            <span class="font2">Tradition since 1889</span>
+            <p class="font3">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.</p>
+            <p class="font4">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </div>
+    <hr width="95%">
+    <div class="main3">
+        <div class="main3a">
+        <p class="our">Our Menu</p>
+        <p class="s1">Bread Basket</p>
+        <p class="s2">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+        <p class="s1">Honey Almond Granola with Fruits</p>
+        <p class="s2">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+        <p class="s1">Belgian Waffle</p>
+        <p class="s2">Vanilla flavored batter with malted flour 7.50</p><br>
+        <p class="s1">Scrambled eggs</p>
+        <p class="s2">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+        <p class="s1">Blueberry Pancakes</p>
+        <p class="s2">With syrup, butter and lots of berries 8.50</p>
+        </div>
+        <div class="img2">
+            <img src="https://www.w3schools.com/w3images/tablesetting.jpg"  width="100%" height="100%">
+        </div>
+    </div>
+    <hr width="95%">
+    <div class="main4">
+    <h1 class="con">Contact</h1>
+    <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+    <p class="para"><b>Catering Service, 42nd Living St, 43043 New York, NY</b></p>
+    <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can</p>
+    <input type="text" placeholder="Name"><br>
+    <input type="text" placeholder="How many people"><br>
+    <input type="text" placeholder="Message\Special requirements"><br>
+    <input type="date" value="16-11-2020"><br>
+    <input type="button" value="SEND MESSAGE" class="botten">
+    </div>
+    <p align="center" class="copy">&copy;W3schools</p>
+    </div>
+</body>
+</html>
